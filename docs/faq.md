@@ -2,7 +2,7 @@
 
 ### What is the prefix for Carl-bot? {docsify-ignore}
 
-The default prefixes for Carl-bot commands are `/` and `@Carl-bot`. There are also custom prefixes available for Tags which you can change using `/prefix set`.
+Carl-bot only responds to slash commands and mentions. Any other prefixes are not supported.
 
 ### How do I get the Message ID? {docsify-ignore}
 

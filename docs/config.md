@@ -1,33 +1,3 @@
-## Prefix
-
-?> Carl-bot's default prefixes are `@Carl-bot`, `/`, `!` & `?`. These prefixes are currently only used with Tags.
-
-!> If you use `/prefix clear` then you would be left with no prefix. Better choice would be `/prefix set` in most of the cases.
-
-<!-- tabs:start -->
-
-<!-- tab:Slash Commands -->
-
-| Name                                                                               | Example            | Usage                                                                                                                                                               |
-| ---------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **prefix list**                                                                    | `/prefix list`     | Lists the prefixes currently in use by the server                                                                                                                   |
-| **prefix add** \<prefix><br><span class="user-permissions">Manage Server</span>    | `/prefix add -`    | Adds a prefix to be used by the bot (Limited to 15).<br>**NOTE**: If you want a two word prefix or a prefix with a space after it or an emoji, you must use quotes. |
-| **prefix set** \<prefix><br><span class="user-permissions">Manage Server</span>    | `/prefix set -`    | Sets the specified prefix to be the only prefix in the server.                                                                                                      |
-| **prefix remove** \<prefix><br><span class="user-permissions">Manage Server</span> | `/prefix remove -` | Removes a prefix. Can't remove mentioning the bot or `/` slash commands.                                                                                            |
-| **prefix clear**<br><span class="user-permissions">Manage Server</span>            | `/prefix clear`    | Removes all prefixes except mentioning the bot or `/` slash commands. This _obviously_ means that you need to mention the bot to register more prefixes.            |
-
-<!-- tab:Mention Commands -->
-
-| Name                                                                               | Example                     | Usage                                                                                                                                                               |
-| ---------------------------------------------------------------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **prefix**                                                                         | `@Carl-bot prefix`          | Lists the prefixes currently in use by the server.                                                                                                                  |
-| **prefix add** \<prefix><br><span class="user-permissions">Manage Server</span>    | `@Carl-bot prefix add -`    | Adds a prefix to be used by the bot (Limited to 15).<br>**NOTE**: If you want a two word prefix or a prefix with a space after it or an emoji, you must use quotes. |
-| **prefix set** \<prefix><br><span class="user-permissions">Manage Server</span>    | `@Carl-bot prefix set -`    | Sets the specified prefix to be the only prefix in the server.                                                                                                      |
-| **prefix remove** \<prefix><br><span class="user-permissions">Manage Server</span> | `@Carl-bot prefix remove -` | Removes a prefix. Can't remove mentioning the bot or `/` slash commands.                                                                                            |
-| **prefix clear**<br><span class="user-permissions">Manage Server</span>            | `@Carl-bot prefix clear`    | Removes all prefixes except mentioning the bot or `/` slash commands. This _obviously_ means that you need to mention the bot to register more prefixes.            |
-
-<!-- tabs:end -->
-
 ## Server
 
 ?> Consider using the **[Dashboard](https://carl.gg)**. It is much, much easier to manage commands through the Dashboard as it allows per-command customization _far_ beyond what these commands offer.

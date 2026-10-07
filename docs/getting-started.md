@@ -25,9 +25,9 @@ Additionally, the bot uses _converters_ which makes specifying roles, members, c
 
 This guide will cover everything you need to do to get started with the basics of what carlbot offers.
 
-- ### Prefix
+- ### Commands
 
-  By default, Carl-bot responds to `/` slash commands. The bot also responds to mention commands, so you can use `@Carl-bot <command>` to run commands. Prefixes other than that are only used for Tags.
+  By default, Carl-bot responds to `/` slash commands. The bot also responds to mention commands, so you can use `@Carl-bot <command>` to run commands.
 
 - ### Channels
   - **Log Channel**: `/log channel` sets the channel where Carl-bot will log things such as message deletions, name changes, role updates and a lot more which you can find later on in this documentation.
