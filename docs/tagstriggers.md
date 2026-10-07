@@ -1,6 +1,6 @@
 ## Tags
 
-Tags are basically custom commands that can be called using their names after Carl-bot's activator. So, if you have created a tag named **test** which has the content `Hello World` then you can use `!test` to make the bot reply `Hello World`. You can manage the list of activators through the [Dashboard](https://carl.gg/). The default activators are `!` and `?`. You can also use mention commands to trigger tags, so you can use `@Carl-bot test` to make the bot reply `Hello World`.
+Tags are basically custom commands that can be called using their names after a Tag Starter. So, if you have created a tag named **test** which has the content `Hello World` then you can use `!test` to make the bot reply `Hello World` where the Tag Starter is `!`. You can manage the list of Tag Starters through the [Dashboard](https://carl.gg/). The default Tag Starters are `!` and `?`. You can also use mention commands to trigger tags, so you can use `@Carl-bot test` to make the bot reply `Hello World`.
 
 ![Create Tag](_images/tag_create.png)
 
@@ -374,7 +374,7 @@ Use a space to separate multiple emoji.
 
 #### Command Blocks
 
-Command blocks execute a Carl-bot command. The formatting and syntax do not change compared to how Carl-bot commands are normally used, except you do not include an activator. Command blocks cannot use reaction role commands, nor can they call other tags or use tag commands.
+Command blocks execute a Carl-bot command. The formatting and syntax do not change compared to how Carl-bot commands are normally used, except you do not include a Tag Starter. Command blocks cannot use reaction role commands, nor can they call other tags or use tag commands.
 There are two types of command blocks: `{command}` and `{cmdAdmin}`. The former checks the user's permissions before executing the command, while the latter executes the command at Carl-bot's permission level. If the permissions required to use the command are not met, Carl-bot will not use it and will output an error message as if they had tried to use the command.
 
 ##### Command (User Permission Level)
@@ -953,7 +953,7 @@ This method assigns all the data that is related to the same holiday to variable
 
 ## Triggers
 
-Triggers are not custom commands. If you want things that are triggered by an activator and a keyword, see the [Tag](#tags) section. Tags offer more functionality, better editing capabilities, will never have a limit to them and are just generally nicer for their intended purpose.
+Triggers are not custom commands. If you want things that are triggered by a Tag Starter and a keyword, see the [Tag](#tags) section. Tags offer more functionality, better editing capabilities, will never have a limit to them and are just generally nicer for their intended purpose.
 Triggers fully support tagscript, check out [Advanced Usage](#advanced-usage) section to learn more.
 
 ![Create Trigger](_images/trigger_create.png)
